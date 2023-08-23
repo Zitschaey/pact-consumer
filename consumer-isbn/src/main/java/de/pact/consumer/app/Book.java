@@ -1,4 +1,4 @@
-package de.pact.consumer.pojo;
+package de.pact.consumer.app;
 
 public class Book {
 
