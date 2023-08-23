@@ -5,9 +5,13 @@ public class Book {
 	private String isbn;
 	private String author;
 	private String title;
-	private long id;
+	private int id;
 
-	public Book(String isbn, String author, String title, long id) {
+	public Book() {
+		super();
+	}
+
+	public Book(String isbn, String author, String title, int id) {
 		super();
 		this.isbn = isbn;
 		this.author = author;
@@ -39,11 +43,11 @@ public class Book {
 		this.title = title;
 	}
 
-	public long getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
